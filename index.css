@@ -1,20 +1,69 @@
 body
 {
-  
+  font-family: "Comic Sans MS", cursive, sans-serif ; 
+}
+#wrapper
+{
+    width:100%;
+    height:auto;
 }
 #Banner
 {
-    
+    background-color: coral;
+    border: 2px solid black;
+    padding: 10px;
+}
+#Banner h1, p
+{
+    color:aliceblue;
 }
 #Navigation
 {
-    
+    background-color:black;
+    border: 2px solid white;
+}
+#Navigation ul
+{
+    list-style-type:none;
+    text-align:center
+}
+#Navigation li
+{
+    display: inline-block;
+    margin:30px;
+    color:aliceblue
 }
 #Side-Content
 {
-    
+    background-color:blue;
+    border: 2px solid black;
+    padding:20px;
 }
 #Article
 {
-    
+    padding-top:0px;
+    border: 2px solid black;
+    margin:0px;
+}
+#Article h2
+{
+    background-color:red;
+    height: 50px;
+    text-align:center;
+    padding:5px;
+    color:aliceblue;
+    margin-bottom:0px;
+    margin-top:0px;
+}
+#Article p
+{
+    background-color:white;
+    height: auto;
+    text-align:justify;
+    padding-top:0px;
+    padding-bottom: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
+    color:black;
+    margin-top:0px;
 }
