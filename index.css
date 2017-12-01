@@ -1,6 +1,6 @@
 body
 {
-  font-family: "Comic Sans MS", cursive, sans-serif ; 
+  font-family: "Calibri", cursive, sans-serif ; 
   background-repeat:no-repeat;
 }
 #wrapper
@@ -15,19 +15,19 @@ body
 }
 #Banner
 {
-    background-color: coral;
+    background-color: #ED146F;
     border: 2px solid black;
     padding: 10px;
     grid-column:1/7;
 }
 #Banner h1, p
 {
-    color:aliceblue;
+    color: white;
 }
 #Navigation
 {
-    background-color:black;
-    border: 2px solid white;
+    background-color:white;
+    border: 2px solid black;
     grid-column:1/7;
 }
 #Navigation ul
@@ -39,11 +39,11 @@ body
 {
     display: inline-block;
     margin:30px;
-    color:aliceblue
+    color:black;
 }
 #Side-Content
 {
-    background-color:blue;
+    background-color:#61D2D6;
     border: 2px solid black;
     padding:20px;
     grid-column:1/3;
@@ -57,7 +57,7 @@ body
 }
 #Article h2
 {
-    background-color:red;
+    background-color:#EDDE45;
     height: 50px;
     text-align:center;
     padding:5px;
