@@ -5,11 +5,14 @@ body
 }
 #wrapper
 {
-    width:100%;
+    width:80%;
+    margin-top: 3%;
+    margin-right:10%;
+    margin-left: 10%;
     height:auto;
     display:grid;
     grid-template-columns:repeat(6,1fr);
-    grid-template-rows:minmax(40px, auto);
+    grid-template-rows:minmax(80px, auto);
     grid-gap:4px;
     
 }
